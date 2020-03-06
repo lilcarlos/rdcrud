@@ -1,0 +1,11 @@
+.destaque {
+    background-color: rgb(38, 255, 0);
+}
+
+li {
+    border-radius: 10px;
+}
+
+a {
+    margin-left: 5px;
+}

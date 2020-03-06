@@ -1,0 +1,7 @@
+<nav class="nav nav-tabs">
+  <ul>
+    <li routerLinkActive="destaque" *ngFor="let item of itens">
+      <a routerLink="{{item.route}}">{{item.label}}</a>
+    </li>
+  </ul>
+<nav>

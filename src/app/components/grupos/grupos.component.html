@@ -1,0 +1,7 @@
+<ul class="nav d-flex align-items-cente flex-column">
+    <li *ngFor="let i of grupos">
+        <a (click)="grupoClicado.emit(i)">{{i.desc}}</a>
+    </li>
+</ul>
+
+
